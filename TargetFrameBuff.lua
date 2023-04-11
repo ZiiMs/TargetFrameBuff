@@ -14,6 +14,7 @@ function TargetFrameBuff_OnLoad()
 	lOriginal_TargetDebuffButton_Update	= TargetDebuffButton_Update;
 	TargetDebuffButton_Update = TargetFrameBuff_Update;
 	
+	lOriginal_TargetDebuffButton_Update()
 	TargetFrameBuff_Restore();
 end
 
